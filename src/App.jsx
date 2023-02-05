@@ -2,7 +2,6 @@ import { BrowserRouter as Router, Routes, Route} from 'react-router-dom'
 import './App.css'
 
 import Contato from './components/Pages/Contato'
-import Empresa from './components/Pages/Empresa'
 import Home from './components/Pages/Home'
 import NewProject from './components/Pages/NewProject'
 import Projects from './components/Pages/Projects'
@@ -20,7 +19,6 @@ function App() {
       <Container customClass='min-height'>
         <Routes>
           <Route path='/' element={<Home />} />
-          <Route path='/empresa' element={<Empresa />} />
           <Route path='/projects' element={<Projects />} />
           <Route path='/contato' element={<Contato />} />
           <Route path='/newproject' element={<NewProject />} />
