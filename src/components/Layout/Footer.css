@@ -1,0 +1,34 @@
+.footer {
+	background-color: #222;
+	color: #FFF;
+	text-align: center;
+	padding: 3em;
+}
+
+.footer__list {
+	display: flex;
+	justify-content: center;
+	list-style: none;
+}
+
+.footer__item {
+	margin: 0 1em;
+}
+
+.footer__item:hover {
+	color: #FFBB33;
+}
+
+.footer__list svg {
+	font-size: 1.5em;
+	cursor: pointer;
+}
+
+.footer__txt {
+	margin-top: 2em;
+}
+
+.footer__txt span {
+	font-weight: bold;
+	color: #FB3;
+}
